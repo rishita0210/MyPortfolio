@@ -33,6 +33,11 @@
     animation: logo-spin infinite 20s linear;
   }
 }
+@media (min-width: 1024px) {
+  html {
+    font-size: 70%; /* Adjust this as needed */
+  }
+}
 
 .card {
   padding: 2em;

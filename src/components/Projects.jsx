@@ -95,7 +95,7 @@ const Projects = () => {
   return (
     <section ref={sectionRef} id="Projects" className="relative text-white h-screen overflow-hidden">
       <div className="text-center lg:text-left pt-20 pb-10 px-6 md:px-24">
-        <h1 className="text-5xl lg:text-7xl font-bold lilita-one bg-gradient-to-r from-orange-500 to-yellow-400 bg-clip-text text-transparent">
+        <h1 className="text-5xl lg:text-5xl font-bold lilita-one bg-gradient-to-r from-orange-500 to-yellow-400 bg-clip-text text-transparent">
           My <br /> Projects
         </h1>
       </div>
