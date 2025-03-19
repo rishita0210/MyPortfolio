@@ -11,7 +11,11 @@ export default {
         "robert-regular": ["robert-regular", "sans-serif"],
 
 
-      }
+      },
+      colors: {
+        purpleCustom: '#573280',
+        grayCustom: '#ADA8B6',
+      },
     },
   },
   plugins: [],

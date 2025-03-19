@@ -70,7 +70,7 @@ const WorkInterest = () => {
   }, []);
 
   return (
-    <div ref={sectionRef} className="h-screen flex flex-col items-center justify-center p-10">
+    <div ref={sectionRef} className="h-screen mt-30 flex flex-col items-center justify-center p-10">
       {/* Title */}
       <div ref={titleRef} className="text-5xl font-bold lilita-one bg-gradient-to-r from-orange-500 to-yellow-500 bg-clip-text text-transparent text-center">
         <h1>Work Interest and What I Can Offer</h1>

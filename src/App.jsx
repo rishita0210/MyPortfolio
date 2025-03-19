@@ -16,7 +16,7 @@ const App = () => {
     <Projects/>
     <Profile/>
     <WorkInterest/>
-    {/* <SkillsSection/> */}
+    <SkillsSection/>
     <Technologie/>
     <Contact/>
     

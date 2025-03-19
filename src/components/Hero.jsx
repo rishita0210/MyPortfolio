@@ -133,7 +133,7 @@ const Hero = () => {
   return (
     <div ref={heroRef} className="min-h-screen flex flex-col lg:flex-row items-center justify-center bg-black px-4 sm:px-4 md:px-12 lg:px-24 py-10 sm:py-8 transition-colors duration-500">
 
-      {/* Text Section (Only text on small screens, normal on large screens) */}
+      {/* Text Section */}
       <div className="text-white text-center sm:mb-20 lg:text-left max-w-5xl" ref={textRef}>
         <p className="text-2xl sm:text-2xl md:text-4xl font-extrabold leading-tight text-white mb-4 lilita-one">
           Frontend Developer
@@ -156,16 +156,23 @@ const Hero = () => {
         </a>
       </div>
 
-      {/* Image & Tech Stack (ONLY for Large Screens) */}
-      <div className="hidden lg:flex relative w-96 h-96 justify-center items-center ">
-        <img
-          ref={imgRef}
-          src="/img/portfolio-illustration.png"
-          alt="Animated Logo"
-          className="w-full h-full object-cover rounded-lg shadow-lg ml-15"
-        />
-        <div className="absolute inset-0 flex justify-center items-center">
-          <p ref={stackTextRef} className="text-yellow-200 text-3xl font-semibold p-10">{techStack[currentIndex]}</p>
+      {/* Image & Tech Stack */}
+      <div className="hidden lg:flex relative w-96 h-96 justify-center items-center ml-20">
+        <div className="relative w-full h-full flex justify-center items-center">
+          {/* Rotating Image */}
+          <img
+            ref={imgRef}
+            src="/img/portfolio-illustration.png"
+            alt="Animated Logo"
+            className="w-full h-full object-cover rounded-lg shadow-lg "
+          />
+
+          {/* Centered Tech Stack Text */}
+          <div className="absolute inset-0 flex justify-center items-center z-10">
+            <p ref={stackTextRef} className="text-yellow-200 text-3xl font-semibold transition-all duration-500">
+              {techStack[currentIndex]}
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -173,6 +180,7 @@ const Hero = () => {
 };
 
 export default Hero;
+
 
 
 
