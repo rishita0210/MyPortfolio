@@ -6,6 +6,8 @@ import Projects from './components/Projects'
 import Profile from './components/Profile'
 import WorkInterest from './components/WorkInterest'
 import SkillsSection from './components/skills'
+import Technologie from './components/technologies'
+import Contact from './components/contact'
 const App = () => {
   return (
    <main>
@@ -14,7 +16,9 @@ const App = () => {
     <Projects/>
     <Profile/>
     <WorkInterest/>
-    <SkillsSection/>
+    {/* <SkillsSection/> */}
+    <Technologie/>
+    <Contact/>
     
    </main>
   )

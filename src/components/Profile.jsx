@@ -22,7 +22,7 @@ const Profile = () => {
         scrollTrigger: {
           trigger: profileRef.current,
           start: "top 80%", // Triggers animation when it enters 80% of the viewport
-          toggleActions: "play none none none",
+          toggleActions: "play reverse play reverse",
         },
       });
 

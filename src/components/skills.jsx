@@ -9,6 +9,8 @@ const skills = [
   { title: "Backend Development", bgColor: "bg-green-500", direction: "right" },
   { title: "UI/UX Design", bgColor: "bg-purple-500", direction: "top" },
   { title: "Tools & Technologies", bgColor: "bg-red-500", direction: "bottom" },
+
+ 
 ];
 
 const SkillsSection = () => {
