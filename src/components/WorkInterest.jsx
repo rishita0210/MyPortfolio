@@ -77,7 +77,7 @@ const WorkInterest = () => {
       </div>
 
       {/* Text */}
-      <div ref={textRef} className="w-3/4 text-xl font-semibold mt-6 text-center text-gray-300">
+      <div ref={textRef} className="w-3/4 text-xl font-lg mt-6 text-center text-gray-300">
         <p>
           I have a strong desire to work with companies that leverage cutting-edge technologies like 
           <span className="text-orange-400"> React</span>, 

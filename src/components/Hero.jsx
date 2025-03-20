@@ -41,7 +41,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <div ref={heroRef} className="min-h-screen flex flex-col lg:flex-row items-center justify-center bg-black px-4 sm:px-4 md:px-12 lg:px-24 py-10 sm:py-8 transition-colors duration-500">
+    <div ref={heroRef} className="min-h-screen lg:mt-30 md:mt-30 flex flex-col lg:flex-row items-center justify-center bg-black px-4 sm:px-4 md:px-12 lg:px-24 py-10 sm:py-8 transition-colors duration-500">
 
       {/* Text Section */}
       <div className="text-white text-center sm:mb-20 lg:text-left max-w-5xl" ref={textRef}>

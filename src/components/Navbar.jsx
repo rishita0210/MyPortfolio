@@ -50,7 +50,7 @@ const Navbar = () => {
                 </div>
 
                 {/* Desktop Navigation */}
-                <ul className="hidden md:flex space-x-6 text-xl mr-5" style={{ fontFamily: "Arial, sans-serif" }}>
+                <ul className="hidden md:flex space-x-6 font-semibold text-sm mr-5" style={{ fontFamily: "Arial, sans-serif" }}>
                     {[
                         { name: "Projects", id: "Projects" },
                         { name: "About", id: "Profile" },

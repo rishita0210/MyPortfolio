@@ -95,7 +95,7 @@ const Contact = () => {
         </h1>
 
         {/* Subtext */}
-        <p className="font-semibold text-base md:text-lg text-white leading-relaxed">
+        <p className="font-lg text-base md:text-lg text-white leading-relaxed">
           I'm always open to new opportunities and collaborations! <br />
           Whether you just want to connect or discuss a development project, feel free to reach out.
         </p>
